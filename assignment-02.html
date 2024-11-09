@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LDU Factorization Calculator</title>
+    <link rel="stylesheet" href="_________">
+</head>
+<body>
+    <div class="container">
+        <h1>LDU Factorization Calculator</h1>
+        <div class="calculator">
+            <label for="dimension">Enter a square matrix (up to 5x5 for simplicity):</label>
+            <input type="number" id="dimension" min="2" max="5" value="2">
+            <button onclick="generateMatrix()">Generate Matrix</button>
+            
+            <div id="matrixInputs"></div>
+
+            <button onclick="calculateL()">Calculate L</button>
+            <button onclick="calculateD()">Calculate D</button>
+            <button onclick="calculateU()">Calculate U</button>
+            <button onclick="calculateE12()">Calculate E12</button>
+            <button onclick="calculateE13()">Calculate E13</button>
+            <button onclick="calculateE23()">Calculate E23</button>
+
+            <div id="result"></div>
+
+            <button onclick="showCalculationSteps()">Show Calculation Steps</button>
+        </div>
+    </div>
+
+    <script src=________></script>
+</body>
+</html>
