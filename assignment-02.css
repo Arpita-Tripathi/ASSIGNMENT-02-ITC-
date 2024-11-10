@@ -4,7 +4,6 @@ body {
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -17,6 +16,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: center;
     width: 700px;
 }
 

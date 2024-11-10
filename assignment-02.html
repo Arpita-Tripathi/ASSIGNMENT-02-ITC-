@@ -5,7 +5,27 @@
     <link rel="stylesheet" href="assignment-02.css">
 </head>
 <body>
-    <div class="container">
+        <div class="theory">
+            <h1>LDU Factorization</h1>
+            <p>
+            LDU Factorization decomposes a square matrix ( A ) into three matrices:
+            </p>
+            <ul>
+            <li><b>L</b>: Lower triangular matrix with ones on the diagonal.</li>
+            <li><b>D</b>: Diagonal matrix with pivot elements of ( A ).</li>
+            <li><b>U</b>: Upper triangular matrix with ones on the diagonal.</li>
+            </ul>
+            <p>
+            This gives ( A = L D U ), simplifying linear systems and matrix inversion.
+            </p>
+            <h2>Applications</h2>
+            <ul>
+            <li>Solving linear systems by breaking into simpler steps.</li>
+            <li>Finding matrix determinants as the product of diagonal entries in ( D ).</li>
+            <li>Calculating matrix inverses by inverting ( L ), ( D ), and ( U ) matrices.</li>
+            </ul>
+        </div>
+        <div class="container">
         <h1><u>LDU Factorization Calculator</u></h1>
         <div class="calculator">
             <label for="dimension">Enter a order of matrix:</label>
