@@ -36,6 +36,8 @@ h1 {
     height: 30px;
     padding: 5px;
     margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .calculator button {
@@ -52,10 +54,11 @@ h1 {
 }
 .box{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    background-color: #333;
 }
 
 .calculator button:hover {
-    background-color: #059669;
+    background-color: #033b29;
 }
 
 #result {
