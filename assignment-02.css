@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0e7ff;
+    background-image:url(https://www.shutterstock.com/shutterstock/photos/2183627747/display_1500/stock-vector-purple-and-pink-modern-abstract-background-vector-illustration-2183627747.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
