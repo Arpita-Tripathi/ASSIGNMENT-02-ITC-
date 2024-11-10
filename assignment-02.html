@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <title>LDU Factorization Calculator</title>
-    <link rel="stylesheet" href="assignment.css">
+    <link rel="stylesheet" href="assignment-02.css">
 </head>
 <body>
     <div class="container">
         <h1>LDU Factorization Calculator</h1>
         <div class="calculator">
-            <label for="dimension">Enter a square matrix (up to 5x5 for simplicity):</label>
-            <input type="number" id="dimension" min="2" max="5" value="2">
+            <label for="dimension">Enter a square matrix:</label>
+            <input type="text" id="dimension" min="1" >
             <button onclick="generateMatrix()">Generate Matrix</button>
             
             <div id="matrixInputs"></div>
@@ -17,9 +17,6 @@
             <button class="box" onclick="calculateL()">Calculate L</button>
             <button class="box" onclick="calculateD()">Calculate D</button>
             <button class="box" onclick="calculateU()">Calculate U</button>
-            <button class="box" onclick="calculateE12()">Calculate E12</button>
-            <button class="box" onclick="calculateE13()">Calculate E13</button>
-            <button class="box" onclick="calculateE23()">Calculate E23</button>
 
             <div id="result"></div>
 
@@ -27,6 +24,6 @@
         </div>
     </div>
 
-    <script src=></script>
+    <script src="#"></script>
 </body>
 </html>
